@@ -1,0 +1,5 @@
+LAZISMU Sulawesi Selatan adalah lembaga pengelola zakat, infaq, dan sedekah yang berada di bawah naungan Muhammadiyah di wilayah Sulawesi Selatan. Lembaga ini berperan dalam menghimpun, mengelola, dan menyalurkan dana zakat, infaq, sedekah, serta dana sosial keagamaan lainnya secara profesional, transparan, dan amanah untuk membantu masyarakat yang membutuhkan.
+
+Melalui berbagai program pemberdayaan di bidang pendidikan, kesehatan, ekonomi, sosial kemanusiaan, dan dakwah, LAZISMU Sulawesi Selatan berkomitmen menghadirkan manfaat yang berkelanjutan bagi masyarakat. Dengan dukungan jaringan Muhammadiyah yang luas hingga tingkat daerah dan cabang, LAZISMU terus berupaya memperluas dampak kebaikan serta mendorong kemandirian umat.
+
+Sebagai lembaga filantropi Islam yang terpercaya, LAZISMU Sulawesi Selatan mengajak masyarakat untuk bersama-sama menebarkan kepedulian dan memperkuat solidaritas sosial melalui gerakan zakat, infaq, dan sedekah demi terwujudnya kesejahteraan dan keadilan sosial bagi seluruh lapisan masyarakat.

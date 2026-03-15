@@ -1,0 +1,608 @@
+{
+  "personalInfo": {
+    "name": "Abdi Natsir",
+    "initials": "AN",
+    "role": "Fullstack Web Developer",
+    "location": "Makassar, Indonesia",
+    "age": 26,
+    "currentStatus": "Freelance Fullstack Developer",
+    "email": "cloudmyn46@gmail.com",
+    "github": "https://github.com/cloudmyn",
+    "profileImage": "/me.jpg",
+    "website": "#",
+    "heroDescription": "An adaptive professional combining administrative expertise with web development competency. Focused on the Laravel, React, and Flutter ecosystems to create modern and responsive digital solutions.",
+    "aboutDescription": [
+      "As an adaptive professional, I combine administrative expertise with high competency in web development. With experience as an Administration Clerk and Web Developer, I have a deep understanding of data management and system architecture.",
+      "My primary focus is on the Laravel ecosystem for backend development, React/Next.js for modern frontends, and Flutter for cross-platform mobile application development."
+    ],
+    "stats": [
+      {
+        "value": "7+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "20+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "15+",
+        "label": "Satisfied Clients"
+      },
+      {
+        "value": "4",
+        "label": "Core Technologies"
+      }
+    ],
+    "traits": [
+      "Problem Solver",
+      "Detail-Oriented",
+      "Fast Learner",
+      "Team Player"
+    ]
+  },
+  "projects": {
+    "laravel": [
+      {
+        "title": "Singgah di Barru",
+        "description": "The official digital platform of Barru Regency that provides complete information about tourism potential, culture, culinary arts, and interesting destinations.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": "/porto/singgah_dibarru/singgah.home_page.png",
+        "link": "https://singgah.barrukab.go.id",
+        "github": null,
+        "highlight": true
+      },
+      {
+        "title": "LAZISMU South Sulawesi",
+        "description": "An institution managing zakat, infaq, and alms under the auspices of Muhammadiyah in the South Sulawesi region.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": "/porto/lazismu/lazismusulsel.home_page.png",
+        "link": "https://lazismusulsel.id/",
+        "github": null,
+        "highlight": true
+      },
+      {
+        "title": "Gowa Education Office Attendance",
+        "description": "Integrated digital attendance and administration system for teachers and staff within the Gowa Regency Education Office.",
+        "tech": [
+          "Laravel API",
+          "React JS",
+          "Tailwind CSS"
+        ],
+        "image": "/porto/caradde/caradde.home_page.png",
+        "link": "https://caradde.disdikgowa.id",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Wajo Education Office Attendance",
+        "description": "Integrated attendance tracking and activity reporting information system for employees within the Wajo Regency Government.",
+        "tech": [
+          "Laravel API",
+          "React JS",
+          "Tailwind CSS"
+        ],
+        "image": "/porto/sikap/sikap.dashboard.png",
+        "link": null,
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Payment Verification System (SIFAISAL)",
+        "description": "A platform designed to streamline the payment verification and reporting system from working units to service providers.",
+        "tech": [
+          "Laravel",
+          "MySQL"
+        ],
+        "image": "/porto/sifaisal/sifaisal.dashboard_page.png",
+        "link": "https://sifaisalv2.com/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Bali Trip Center",
+        "description": "An integrated hotel booking system with reservation management, payments, and real-time reporting for the hospitality industry.",
+        "tech": [
+          "Laravel",
+          "MySQL",
+          "Livewire",
+          "Tailwind CSS"
+        ],
+        "image": null,
+        "link": "https://balitripcenter.com",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Inventory Management System",
+        "description": "Stock and inventory management application featuring tracking, reporting, and automated notifications.",
+        "tech": [
+          "Laravel",
+          "Filament",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/cloudmyn",
+        "highlight": false
+      },
+      {
+        "title": "E-Commerce Platform",
+        "description": "A complete e-commerce platform with cart system, checkout, payments, and an admin dashboard.",
+        "tech": [
+          "Laravel",
+          "Vue.js",
+          "Stripe API"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/cloudmyn",
+        "highlight": false
+      },
+      {
+        "title": "SIPOD",
+        "description": "Integrated project monitoring and dashboard system for real-time tracking and oversight.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": "https://sipod.id/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "WEETABS",
+        "description": "A digital information and management system optimized for tablet devices in various organizational settings.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": "https://weetabs.com/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "SMART POSTAL",
+        "description": "Modern logistics and postal service management platform designed for efficiency and tracking.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": "https://smart-postal.com/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "AKSARA-LONTARAKU",
+        "description": "An educational web platform dedicated to preserving and teaching the traditional Lontara script of South Sulawesi.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": "https://aksara-lontaraku.site/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "PDB SMP",
+        "description": "A comprehensive student admission management system for secondary schools, streamlining the enrollment process.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": "https://simba-towuti.my.id/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "ASISTENSI LAB",
+        "description": "A digital platform for managing laboratory assistant schedules, activities, and administrative tasks.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": "https://admin.asistlab.my.id/",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "PPD Sultra 2024",
+        "description": "A regional development planning system for the Southeast Sulawesi provincial government.",
+        "tech": [
+          "Laravel",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Shemen Bright",
+        "description": "A robust multi-level marketing (MLM) management website for business growth and tracking.",
+        "tech": [
+          "Laravel",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Toogi",
+        "description": "A versatile service provider and booking application for streamlining client-provider interactions.",
+        "tech": [
+          "Laravel",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "SocialCook",
+        "description": "A community-driven recipe sharing and culinary networking platform for food enthusiasts.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Indotaku",
+        "description": "A feature-rich web application for reading comics and manga with an intuitive user interface.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Tokoqu",
+        "description": "A Point of Sale (POS) and inventory management solution tailored for micro, small, and medium enterprises (MSMEs).",
+        "tech": [
+          "Laravel",
+          "MySQL"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      }
+    ],
+    "react": [
+      {
+        "title": "LAZISMU South Sulawesi",
+        "description": "An institution managing zakat, infaq, and alms under the auspices of Muhammadiyah in the South Sulawesi region.",
+        "tech": [
+          "Laravel",
+          "Tailwind CSS",
+          "MySQL"
+        ],
+        "image": "/porto/lazismu/lazismusulsel.home_page.png",
+        "link": "https://lazismusulsel.id/",
+        "github": null,
+        "highlight": true
+      },
+      {
+        "title": "Gowa Education Office Attendance",
+        "description": "Integrated digital attendance and administration system for teachers and staff within the Gowa Regency Education Office.",
+        "tech": [
+          "Laravel API",
+          "React JS",
+          "Tailwind CSS"
+        ],
+        "image": "/porto/caradde/caradde.login_page.png",
+        "link": "https://caradde.disdikgowa.id",
+        "github": null,
+        "highlight": false
+      },
+      {
+        "title": "Wajo Education Office Attendance",
+        "description": "Integrated attendance tracking and activity reporting information system for employees within the Wajo Regency Government.",
+        "tech": [
+          "Laravel API",
+          "React JS",
+          "Tailwind CSS"
+        ],
+        "image": "/porto/sikap/sikap.dashboard.png",
+        "link": null,
+        "github": null,
+        "highlight": false
+      }
+    ],
+    "flutter": [
+      {
+        "title": "Mobile Commerce App",
+        "description": "Mobile e-commerce application with a modern UI, payment gateway integration, and push notifications.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Provider"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/cloudmyn",
+        "highlight": true
+      },
+      {
+        "title": "Health Tracking App",
+        "description": "Health tracking application featuring monitoring, progress charts, and daily reminders.",
+        "tech": [
+          "Flutter",
+          "SQLite",
+          "FL Chart"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/cloudmyn",
+        "highlight": false
+      },
+      {
+        "title": "Booking App",
+        "description": "Service booking application with interactive calendar, notifications, and schedule management.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "REST API"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/cloudmyn",
+        "highlight": false
+      },
+      {
+        "title": "Exaflorer",
+        "description": "A cross-platform file management application with a focus on speed and ease of use.",
+        "tech": [
+          "Flutter",
+          "Dart"
+        ],
+        "image": null,
+        "link": null,
+        "github": null,
+        "highlight": false
+      }
+    ],
+    "packages": [
+      {
+        "title": "Bookmark",
+        "description": "A robust Laravel package for implementing bookmarking functionality for any Eloquent model.",
+        "tech": [
+          "Laravel",
+          "PHP"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/CloudMyn/Bookmark",
+        "highlight": false
+      },
+      {
+        "title": "Spellchecker",
+        "description": "A versatile Laravel package for integrating professional spell-checking capabilities into applications.",
+        "tech": [
+          "Laravel",
+          "PHP"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/CloudMyn/SpellChecker",
+        "highlight": false
+      },
+      {
+        "title": "WGCLI",
+        "description": "A high-performance command-line tool designed for efficient and automated comic scraping.",
+        "tech": [
+          "CLI",
+          "Scraping"
+        ],
+        "image": null,
+        "link": null,
+        "github": "https://github.com/CloudMyn/WGCLI",
+        "highlight": false
+      }
+    ]
+  },
+  "skills": {
+    "backend": [
+      {
+        "name": "PHP / Laravel",
+        "level": 95,
+        "icon": "Server"
+      },
+      {
+        "name": "CodeIgniter",
+        "level": 85,
+        "icon": "Server"
+      },
+      {
+        "name": "MySQL / PostgreSQL",
+        "level": 90,
+        "icon": "Database"
+      },
+      {
+        "name": "REST API Design",
+        "level": 90,
+        "icon": "Code"
+      }
+    ],
+    "frontend": [
+      {
+        "name": "JavaScript / TypeScript",
+        "level": 88,
+        "icon": "Code"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 92,
+        "icon": "Palette"
+      },
+      {
+        "name": "HTML5 / CSS3",
+        "level": 95,
+        "icon": "Globe"
+      }
+    ],
+    "mobile": [
+      {
+        "name": "Flutter / Dart",
+        "level": 82,
+        "icon": "Smartphone"
+      },
+      {
+        "name": "Mobile UI/UX",
+        "level": 80,
+        "icon": "Palette"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git / GitHub",
+        "level": 90,
+        "icon": "Code"
+      },
+      {
+        "name": "Blender 3D",
+        "level": 70,
+        "icon": "Palette"
+      },
+      {
+        "name": "Photoshop",
+        "level": 75,
+        "icon": "Palette"
+      },
+      {
+        "name": "Excel / Data Management",
+        "level": 95,
+        "icon": "Database"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "period": "Sept 2025 – Now",
+      "position": "Expert Staff",
+      "company": "Barru Regency Communication and Information Office",
+      "description": "Serving as a maintainer for programs and applications running in Barru Regency.",
+      "icon": "Briefcase"
+    },
+    {
+      "period": "July 2025 – Dec 2025",
+      "position": "Mobile Developer Using Flutter",
+      "company": "Mamala Software",
+      "description": "Worked as a mobile developer for various mobile application development projects. Responsible for system architecture planning and implementing technical solutions for clients.",
+      "icon": "Briefcase"
+    },
+    {
+      "period": "Jan 2024 – May 2025",
+      "position": "Freelance Fullstack Web Developer",
+      "company": "Sulapa4Studio",
+      "description": "Project manager for various web development projects. Responsible for team coordination, system architecture planning, and implementing technical solutions for clients.",
+      "icon": "Briefcase"
+    },
+    {
+      "period": "Dec 2024 – Mar 2025",
+      "position": "Freelance Fullstack Web Developer",
+      "company": "Entercode",
+      "description": "Backend developer for the hotel application balitripcenter.com. Developed the booking system, room management, and payment gateway integration.",
+      "icon": "Server"
+    },
+    {
+      "period": "Jan 2023 – Oct 2024",
+      "position": "Administration Clerk",
+      "company": "PT Indomarco Prismatama",
+      "description": "Administration staff at Indomaret DC Manado. Managed inventory data, archival documents, and logistics coordination using the company's ERP system.",
+      "icon": "Database"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Indonesian",
+      "level": "Native",
+      "percentage": 100
+    },
+    {
+      "name": "English",
+      "level": "Intermediate",
+      "percentage": 75
+    }
+  ],
+  "navigation": [
+    {
+      "name": "About",
+      "id": "about"
+    },
+    {
+      "name": "Skills",
+      "id": "skills"
+    },
+    {
+      "name": "Projects",
+      "id": "projects"
+    },
+    {
+      "name": "Experience",
+      "id": "experience"
+    },
+    {
+      "name": "Contact",
+      "id": "contact"
+    }
+  ],
+  "techStack": [
+    {
+      "name": "Laravel",
+      "color": "text-red-400",
+      "border": "border-red-500/30",
+      "bg": "bg-red-500/10"
+    },
+    {
+      "name": "React",
+      "color": "text-cyan-400",
+      "border": "border-cyan-500/30",
+      "bg": "bg-cyan-500/10"
+    },
+    {
+      "name": "Flutter",
+      "color": "text-blue-400",
+      "border": "border-blue-500/30",
+      "bg": "bg-blue-500/10"
+    },
+    {
+      "name": "Tailwind",
+      "color": "text-teal-400",
+      "border": "border-teal-500/30",
+      "bg": "bg-teal-500/10"
+    }
+  ]
+}

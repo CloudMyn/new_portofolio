@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   keywords: ["Abdi Natsir", "Fullstack Developer", "Laravel", "React", "Flutter", "Web Developer", "PHP", "JavaScript", "Freelancer"],
   authors: [{ name: "Abdi Natsir" }],
   icons: {
-    icon: "/logo.svg",
+    icon: "/favicon.ico",
   },
   openGraph: {
     title: "Abdi Natsir | Fullstack Web Developer",
@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className="dark" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

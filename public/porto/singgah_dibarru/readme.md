@@ -1,0 +1,5 @@
+Singgah di Barru merupakan platform digital resmi yang menghadirkan informasi lengkap mengenai potensi wisata, budaya, kuliner, serta berbagai destinasi menarik di Kabupaten Barru. Website ini bertujuan untuk mempromosikan keindahan alam dan kekayaan budaya daerah kepada masyarakat luas sekaligus menjadi panduan bagi wisatawan yang ingin berkunjung ke Barru.
+
+Melalui website ini, pengunjung dapat menemukan berbagai rekomendasi tempat wisata, agenda kegiatan daerah, informasi kuliner khas, serta berbagai pengalaman menarik yang dapat dinikmati selama berada di Barru. Dengan konsep digital yang informatif dan mudah diakses, Singgah di Barru menjadi jembatan antara potensi pariwisata daerah dengan wisatawan lokal maupun mancanegara.
+
+Website ini juga menjadi bagian dari upaya pemerintah daerah dalam mendukung pengembangan sektor pariwisata serta meningkatkan daya tarik Kabupaten Barru sebagai salah satu destinasi wisata di Sulawesi Selatan.
