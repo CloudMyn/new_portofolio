@@ -51,6 +51,13 @@
           "MySQL"
         ],
         "image": "/porto/singgah_dibarru/singgah.home_page.png",
+        "images": [
+          "/porto/singgah_dibarru/singgah.home_page.png",
+          "/porto/singgah_dibarru/singgah.dashboard_page.png",
+          "/porto/singgah_dibarru/singgah.destinasi_page.png",
+          "/porto/singgah_dibarru/singgah.login_page.png",
+          "/porto/singgah_dibarru/singgah.peta_page.png"
+        ],
         "link": "https://singgah.barrukab.go.id",
         "github": null,
         "highlight": true
@@ -64,6 +71,12 @@
           "MySQL"
         ],
         "image": "/porto/lazismu/lazismusulsel.home_page.png",
+        "images": [
+          "/porto/lazismu/lazismusulsel.home_page.png",
+          "/porto/lazismu/lazismusulsel.dashboard_page.png",
+          "/porto/lazismu/lazismusulsel.detail_page.png",
+          "/porto/lazismu/lazismusulsel.login_page.png"
+        ],
         "link": "https://lazismusulsel.id/",
         "github": null,
         "highlight": true
@@ -77,6 +90,11 @@
           "Tailwind CSS"
         ],
         "image": "/porto/caradde/caradde.home_page.png",
+        "images": [
+          "/porto/caradde/caradde.home_page.png",
+          "/porto/caradde/caradde.login_page.png",
+          "/porto/caradde/caradde.persebaran.png"
+        ],
         "link": "https://caradde.disdikgowa.id",
         "github": null,
         "highlight": false
@@ -90,6 +108,11 @@
           "Tailwind CSS"
         ],
         "image": "/porto/sikap/sikap.dashboard.png",
+        "images": [
+          "/porto/sikap/sikap.dashboard.png",
+          "/porto/sikap/sikap.login_page.png",
+          "/porto/sikap/sikap.reporting.png"
+        ],
         "link": null,
         "github": null,
         "highlight": false
@@ -102,21 +125,13 @@
           "MySQL"
         ],
         "image": "/porto/sifaisal/sifaisal.dashboard_page.png",
-        "link": "https://sifaisalv2.com/",
-        "github": null,
-        "highlight": false
-      },
-      {
-        "title": "Bali Trip Center",
-        "description": "An integrated hotel booking system with reservation management, payments, and real-time reporting for the hospitality industry.",
-        "tech": [
-          "Laravel",
-          "MySQL",
-          "Livewire",
-          "Tailwind CSS"
+        "images": [
+          "/porto/sifaisal/sifaisal.dashboard_page.png",
+          "/porto/sifaisal/sifaisal.form_page.png",
+          "/porto/sifaisal/sifaisal.login_page.png",
+          "/porto/sifaisal/sifaisal.satker_report.png"
         ],
-        "image": null,
-        "link": "https://balitripcenter.com",
+        "link": "https://sifaisalv2.com/",
         "github": null,
         "highlight": false
       },
@@ -129,6 +144,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": null,
         "github": "https://github.com/cloudmyn",
         "highlight": false
@@ -142,6 +158,7 @@
           "Stripe API"
         ],
         "image": null,
+        "images": [],
         "link": null,
         "github": "https://github.com/cloudmyn",
         "highlight": false
@@ -155,6 +172,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": "https://sipod.id/",
         "github": null,
         "highlight": false
@@ -168,6 +186,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": "https://weetabs.com/",
         "github": null,
         "highlight": false
@@ -181,6 +200,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": "https://smart-postal.com/",
         "github": null,
         "highlight": false
@@ -194,12 +214,13 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": "https://aksara-lontaraku.site/",
-        "github": null,
+        "github": "https://github.com/CloudMyn/aksara_lontaraku",
         "highlight": false
       },
       {
-        "title": "PDB SMP",
+        "title": "PPDB SMP",
         "description": "A comprehensive student admission management system for secondary schools, streamlining the enrollment process.",
         "tech": [
           "Laravel",
@@ -207,8 +228,9 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": "https://simba-towuti.my.id/",
-        "github": null,
+        "github": "https://github.com/CloudMyn/PPDB",
         "highlight": false
       },
       {
@@ -220,8 +242,9 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": "https://admin.asistlab.my.id/",
-        "github": null,
+        "github": "https://github.com/CloudMyn/AsistLab",
         "highlight": false
       },
       {
@@ -232,18 +255,7 @@
           "MySQL"
         ],
         "image": null,
-        "link": null,
-        "github": null,
-        "highlight": false
-      },
-      {
-        "title": "Shemen Bright",
-        "description": "A robust multi-level marketing (MLM) management website for business growth and tracking.",
-        "tech": [
-          "Laravel",
-          "MySQL"
-        ],
-        "image": null,
+        "images": [],
         "link": null,
         "github": null,
         "highlight": false
@@ -256,6 +268,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": null,
         "github": null,
         "highlight": false
@@ -269,6 +282,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": null,
         "github": null,
         "highlight": false
@@ -282,6 +296,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": null,
         "github": null,
         "highlight": false
@@ -294,6 +309,7 @@
           "MySQL"
         ],
         "image": null,
+        "images": [],
         "link": null,
         "github": null,
         "highlight": false
@@ -309,6 +325,12 @@
           "MySQL"
         ],
         "image": "/porto/lazismu/lazismusulsel.home_page.png",
+        "images": [
+          "/porto/lazismu/lazismusulsel.home_page.png",
+          "/porto/lazismu/lazismusulsel.dashboard_page.png",
+          "/porto/lazismu/lazismusulsel.detail_page.png",
+          "/porto/lazismu/lazismusulsel.login_page.png"
+        ],
         "link": "https://lazismusulsel.id/",
         "github": null,
         "highlight": true
@@ -322,6 +344,11 @@
           "Tailwind CSS"
         ],
         "image": "/porto/caradde/caradde.login_page.png",
+        "images": [
+          "/porto/caradde/caradde.home_page.png",
+          "/porto/caradde/caradde.login_page.png",
+          "/porto/caradde/caradde.persebaran.png"
+        ],
         "link": "https://caradde.disdikgowa.id",
         "github": null,
         "highlight": false
@@ -335,6 +362,11 @@
           "Tailwind CSS"
         ],
         "image": "/porto/sikap/sikap.dashboard.png",
+        "images": [
+          "/porto/sikap/sikap.dashboard.png",
+          "/porto/sikap/sikap.login_page.png",
+          "/porto/sikap/sikap.reporting.png"
+        ],
         "link": null,
         "github": null,
         "highlight": false

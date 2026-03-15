@@ -24,6 +24,8 @@ import {
 } from 'lucide-react'
 
 import portfolio from '@/data/portfolio.json'
+import { ProjectSlider } from '@/components/ProjectSlider'
+import { ProjectModal } from '@/components/ProjectModal'
 
 const iconMap: Record<string, any> = {
   Github, ExternalLink, Mail, MapPin, Calendar, Code, Server, Smartphone, 
@@ -53,9 +55,16 @@ const generateStars = (count: number) => {
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState<'laravel' | 'react' | 'flutter'>('laravel')
   const [isMounted, setIsMounted] = useState(false)
+  const [selectedProject, setSelectedProject] = useState<any>(null)
+  const [isModalOpen, setIsModalOpen] = useState(false)
   
   const { personalInfo, projects, skills, experiences, languages, navigation, techStack } = portfolio as any
   
+  const openProjectModal = (project: any) => {
+    setSelectedProject(project)
+    setIsModalOpen(true)
+  }
+
   // Generate stars once using useMemo
   const stars = useMemo(() => generateStars(150), [])
 
@@ -108,7 +117,7 @@ export default function Portfolio() {
           </div>
           <Button
             className="btn-primary rounded-full px-6"
-            onClick={() => scrollToSection('kontak')}
+            onClick={() => scrollToSection('contact')}
           >
             Hubungi Saya
           </Button>
@@ -139,7 +148,7 @@ export default function Portfolio() {
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Button
               className="btn-primary rounded-full px-8 py-6 text-lg"
-              onClick={() => scrollToSection('proyek')}
+              onClick={() => scrollToSection('projects')}
             >
               <Code className="mr-2 h-5 w-5" />
               Lihat Proyek
@@ -147,7 +156,7 @@ export default function Portfolio() {
             <Button
               variant="outline"
               className="rounded-full px-8 py-6 text-lg border-violet-500/30 hover:bg-violet-500/10"
-              onClick={() => window.open('https://github.com/abdinatsir', '_blank')}
+              onClick={() => window.open(personalInfo.github, '_blank')}
             >
               <Github className="mr-2 h-5 w-5" />
               GitHub
@@ -187,7 +196,7 @@ export default function Portfolio() {
             {/* Profile Card */}
             <div className="glass-card rounded-2xl p-8">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-violet-500 to-cyan-500 flex items-center justify-center text-3xl font-bold text-white overflow-hidden">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-violet-500 to-cyan-500 flex items-center justify-center text-3xl font-bold text-white overflow-hidden border border-white/10">
                   {personalInfo.profileImage ? (
                     <img 
                       src={personalInfo.profileImage} 
@@ -225,7 +234,7 @@ export default function Portfolio() {
                   Languages
                 </h4>
                 <div className="space-y-3">
-                  {languages.map((lang, i) => (
+                  {languages.map((lang: any, i: number) => (
                     <div key={i}>
                       <div className="flex justify-between text-sm mb-1">
                         <span className="text-gray-300">{lang.name}</span>
@@ -421,35 +430,36 @@ export default function Portfolio() {
             {projects[activeTab].map((project: any, i: number) => (
               <div
                 key={i}
-                className={`project-card glass-card rounded-2xl overflow-hidden flex flex-col group ${
+                onClick={() => openProjectModal(project)}
+                className={`project-card glass-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer transition-all duration-300 hover:scale-[1.02] ${
                   project.highlight ? 'ring-2 ring-violet-500/50' : ''
                 }`}
               >
-                {/* Project Image/Placeholder */}
+                {/* Project Image/Slider */}
                 <div className="relative h-48 w-full overflow-hidden bg-gray-800/50">
-                  {project.image ? (
-                    <img 
-                      src={project.image} 
-                      alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-violet-500/20 to-cyan-500/20 flex items-center justify-center">
-                      <Code className="w-12 h-12 text-violet-400/30" />
-                    </div>
-                  )}
+                  <ProjectSlider 
+                    images={project.images && project.images.length > 0 ? project.images : (project.image ? [project.image] : [])} 
+                    title={project.title}
+                    aspectRatio="h-full"
+                  />
                   {project.highlight && (
-                    <div className="absolute top-4 right-4 bg-violet-500 text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-lg flex items-center gap-1">
+                    <div className="absolute top-4 right-4 bg-violet-500 text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-lg flex items-center gap-1 z-10">
                       <Star className="w-3 h-3 fill-white" /> Featured
                     </div>
                   )}
+                  {/* Overlay on hover */}
+                  <div className="absolute inset-0 bg-violet-600/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+                    <div className="bg-white/10 backdrop-blur-md rounded-full px-4 py-2 text-white text-xs font-medium border border-white/20">
+                      View Details
+                    </div>
+                  </div>
                 </div>
 
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-white mb-2 group-hover:text-violet-400 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-gray-400 mb-4 line-clamp-3 text-sm flex-grow">
+                  <p className="text-gray-400 mb-4 line-clamp-2 text-sm flex-grow">
                     {project.description}
                   </p>
                   
@@ -468,7 +478,10 @@ export default function Portfolio() {
                   <div className="flex gap-4 mt-auto pt-4 border-t border-white/5">
                     {project.link && (
                       <button 
-                        onClick={() => window.open(project.link, '_blank')}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          window.open(project.link, '_blank');
+                        }}
                         className="flex items-center gap-2 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors"
                       >
                         <ExternalLink className="w-4 h-4" />
@@ -477,7 +490,10 @@ export default function Portfolio() {
                     )}
                     {project.github && (
                       <button 
-                        onClick={() => window.open(project.github, '_blank')}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          window.open(project.github, '_blank');
+                        }}
                         className="flex items-center gap-2 text-sm font-medium text-gray-400 hover:text-white transition-colors"
                       >
                         <Github className="w-4 h-4" />
@@ -490,6 +506,13 @@ export default function Portfolio() {
             ))}
           </div>
         </div>
+
+        {/* Project Modal */}
+        <ProjectModal 
+          isOpen={isModalOpen} 
+          onClose={() => setIsModalOpen(false)} 
+          project={selectedProject} 
+        />
       </section>
 
       {/* Experience Section */}
@@ -517,11 +540,11 @@ export default function Portfolio() {
                     className="relative pl-0 md:pl-20"
                   >
                     {/* Timeline Dot */}
-                    <div className="absolute left-4 md:left-4 top-8 w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-cyan-500 flex items-center justify-center hidden md:flex">
+                    <div className="absolute left-4 md:left-4 top-8 w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-cyan-500 flex items-center justify-center hidden md:flex border border-white/10">
                       <Icon className="w-4 h-4 text-white" />
                     </div>
 
-                    <div className="glass-card rounded-2xl p-6">
+                    <div className="glass-card rounded-2xl p-6 transition-all duration-300 hover:border-violet-500/30">
                       <div className="flex flex-wrap items-center gap-3 mb-3">
                         <Badge className="bg-violet-500/20 text-violet-300 border border-violet-500/30">
                           {exp.period}
@@ -578,7 +601,7 @@ export default function Portfolio() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full border-violet-500/30 hover:bg-violet-500/10"
+                    className="rounded-full border-violet-500/30 hover:bg-violet-500/10 h-10 w-10"
                     onClick={() => window.open(personalInfo.github, '_blank')}
                   >
                     <Github className="w-5 h-5" />
@@ -586,7 +609,7 @@ export default function Portfolio() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10"
+                    className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 h-10 w-10"
                     onClick={() => window.open(personalInfo.website, '_blank')}
                   >
                     <Globe className="w-5 h-5" />
@@ -596,7 +619,7 @@ export default function Portfolio() {
 
               <div className="flex flex-col justify-center items-center gap-4">
                 <Button
-                  className="btn-primary rounded-full px-8 py-6 text-lg w-full max-w-xs"
+                  className="btn-primary rounded-full px-8 py-6 text-lg w-full max-w-xs transition-transform hover:scale-105"
                   onClick={() => window.open(`mailto:${personalInfo.email}`, '_blank')}
                 >
                   <Mail className="mr-2 h-5 w-5" />
